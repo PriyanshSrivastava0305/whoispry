@@ -37,11 +37,11 @@ const GridSection: React.FC = () => {
           ))}
         </div>
         
-        <div className="flex justify-center mt-16">
+        {/* <div className="flex justify-center mt-16">
           <button className="relative inline-flex items-center justify-center px-8 py-3 border border-white/20 font-mono text-xs tracking-wider">
             <span className="relative">LOAD MORE SPECIMENS</span>
           </button>
-        </div>
+        </div> */}
       </div>
     </section>
   );

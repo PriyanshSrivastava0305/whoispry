@@ -5,7 +5,7 @@ import AnatomicalVisual from '../AnatomicalVisual';
 const NewsletterSection: React.FC = () => {
   return (
     <section className="py-20 relative">
-      <div className="absolute inset-0 opacity-20">
+      <div className="absolute inset-0 opacity-100">
         <AnatomicalVisual className="w-full h-full" />
       </div>
       

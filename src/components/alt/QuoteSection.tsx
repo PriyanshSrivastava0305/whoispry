@@ -1,9 +1,14 @@
 
 import React from 'react';
+import AnatomicalVisual from '../AnatomicalVisual';
+
 
 const QuoteSection: React.FC = () => {
   return (
     <section className="py-20 relative">
+      <div className="absolute inset-0 opacity-70">
+        <AnatomicalVisual className="w-full h-full" />
+      </div>
       <div className="container mx-auto px-4 relative">
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-10">

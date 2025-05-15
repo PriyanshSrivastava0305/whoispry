@@ -61,14 +61,14 @@ const fall_of_icarus: React.FC = () => {
             </h1>
             
             <div className="flex items-center text-sm text-white/70 mb-8 animate-fade-in" style={{ animationDelay: '0.3s' }}>
-              <div className="flex items-center">
+              {/* <div className="flex items-center">
                 <div className="w-8 h-8 rounded-full bg-white/20 mr-3"></div>
-                <span>Alex Morgan</span>
-              </div>
+                <span>Priyansh</span>
+              </div> */}
               <span className="mx-3">•</span>
-              <span>Apr 9, 2025</span>
+              <span>May 16, 2025</span>
               <span className="mx-3">•</span>
-              <span>8 min read</span>
+              {/* <span>8 min read</span> */}
             </div>
           </div>
         </div>
@@ -122,7 +122,7 @@ const fall_of_icarus: React.FC = () => {
           </div>
           
           {/* Author */}
-          <div className="mt-16 pt-12 border-t border-white/10">
+          {/* <div className="mt-16 pt-12 border-t border-white/10">
             <div className="flex items-center">
               <div className="w-16 h-16 rounded-full bg-white/20 mr-6"></div>
               <div>
@@ -132,7 +132,7 @@ const fall_of_icarus: React.FC = () => {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       

@@ -26,7 +26,7 @@ const AlternateIndex: React.FC = () => {
       <GridSection />
       
       {/* Newsletter Section with anatomical styling */}
-      <NewsletterSection />
+      {/* <NewsletterSection /> */}
       
       <Footer />
     </div>
