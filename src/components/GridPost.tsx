@@ -8,6 +8,7 @@ interface GridPostProps {
   category: string;
   image: string;
   delay?: number;
+  link: string;
 }
 
 const GridPost: React.FC<GridPostProps> = ({
@@ -15,11 +16,12 @@ const GridPost: React.FC<GridPostProps> = ({
   excerpt,
   category,
   image,
-  delay = 0
+  delay = 0,
+  link
 }) => {
   return (
     <Link 
-      to="/article" 
+      to={link} 
       className="group flex flex-col overflow-hidden animate-fade-in"
       style={{ animationDelay: `${delay}s` }}
     >

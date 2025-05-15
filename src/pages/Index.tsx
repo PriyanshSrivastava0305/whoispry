@@ -12,21 +12,24 @@ const FEATURED_POSTS = [
     title: "THE FALL OF ICARUS",
     excerpt: "Don't fly too close to the sun. It will destroy you.",
     image: "lovable-uploads/967e4a2c-75ab-4dc5-8f39-8900fd5f96b0.png",
-    category: "MYTHOLOGY"
+    category: "MYTHOLOGY",
+    link: "/articles/fall_of_icarus"
   },
   {
     id: 2,
     title: "Neural Networks & Human Consciousness",
     excerpt: "Exploring the thin line between artificial intelligence and human awareness.",
     image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5",
-    category: "TECH"
+    category: "TECH",
+    link: "/articles/fall-of-icarus"
   },
   {
     id: 3,
     title: "Digital Architecture Revolution",
     excerpt: "How virtual spaces are redefining our perception of structure and form.",
     image: "https://images.unsplash.com/photo-1527576539890-dfa815648363",
-    category: "DESIGN"
+    category: "DESIGN",
+    link: "/articles/fall-of-icarus"
   }
 ];
 
@@ -36,42 +39,48 @@ const GRID_POSTS = [
     title: "The Quantum Computing Race",
     excerpt: "Major powers compete to achieve quantum supremacy, potentially reshaping global tech dominance.",
     category: "TECHNOLOGY",
-    image: "https://images.unsplash.com/photo-1470813740244-df37b8c1edcb"
+    image: "https://images.unsplash.com/photo-1470813740244-df37b8c1edcb",
+    link: "/articles/fall-of-icarus"
   },
   {
     id: 2,
     title: "Biomechanical Art Movement",
     excerpt: "Artists explore the fusion of organic forms and mechanical elements in a growing creative trend.",
     category: "ART",
-    image: "https://images.unsplash.com/photo-1487958449943-2429e8be8625"
+    image: "https://images.unsplash.com/photo-1487958449943-2429e8be8625",
+    link: "/articles/fall-of-icarus"
   },
   {
     id: 3,
     title: "The Ethics of Brain Interfaces",
     excerpt: "As direct neural links become possible, what are the moral implications of mind-machine connections?",
     category: "PHILOSOPHY",
-    image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5"
+    image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5",
+    link: "/articles/fall-of-icarus"
   },
   {
     id: 4,
     title: "Virtual Reality Therapy",
     excerpt: "How immersive worlds are helping treat PTSD, phobias and other psychological conditions.",
     category: "HEALTH",
-    image: "https://images.unsplash.com/photo-1527576539890-dfa815648363"
+    image: "https://images.unsplash.com/photo-1527576539890-dfa815648363",
+    link: "/articles/fall-of-icarus"
   },
   {
     id: 5,
     title: "Digital Minimalism",
     excerpt: "The counterculture movement against information overload in the connected age.",
     category: "LIFESTYLE",
-    image: "https://images.unsplash.com/photo-1470813740244-df37b8c1edcb"
+    image: "https://images.unsplash.com/photo-1470813740244-df37b8c1edcb",
+    link: "/articles/fall-of-icarus"
   },
   {
     id: 6,
     title: "Cyberpunk 2025: Predictions vs Reality",
     excerpt: "How sci-fi visions from past decades compare to our current technological landscape.",
     category: "CULTURE",
-    image: "https://images.unsplash.com/photo-1487958449943-2429e8be8625"
+    image: "https://images.unsplash.com/photo-1487958449943-2429e8be8625",
+    link: "/articles/fall-of-icarus"
   }
 ];
 
@@ -106,6 +115,7 @@ const Index: React.FC = () => {
                 image={post.image}
                 category={post.category}
                 delay={0.2 * index}
+                link={post.link}
               />
             ))}
           </div>
@@ -159,20 +169,22 @@ const Index: React.FC = () => {
                 category={post.category}
                 image={post.image}
                 delay={0.1 * index}
+                link={post.link}
+
               />
             ))}
           </div>
           
-          <div className="flex justify-center mt-16">
+          {/* <div className="flex justify-center mt-16">
             <button className="relative inline-flex items-center justify-center px-8 py-3 border border-white/20 hover:border-neon-purple hover:text-neon-purple rounded-full transition-colors duration-300">
               <span className="relative font-medium">LOAD MORE ARTICLES</span>
             </button>
-          </div>
+          </div> */}
         </div>
       </section>
       
       {/* Newsletter Section */}
-      <section className="py-20 relative">
+      {/* <section className="py-20 relative">
         <div className="absolute inset-0 bg-gradient-to-r from-neon-purple/10 via-neon-blue/5 to-transparent z-0"></div>
         
         <div className="container mx-auto px-4 relative z-10">
@@ -197,7 +209,7 @@ const Index: React.FC = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       
       <Footer />
     </div>

@@ -8,6 +8,7 @@ interface FeaturedPostProps {
   image: string;
   category: string;
   delay?: number;
+  link: string;
 }
 
 const FeaturedPost: React.FC<FeaturedPostProps> = ({ 
@@ -15,11 +16,12 @@ const FeaturedPost: React.FC<FeaturedPostProps> = ({
   excerpt,
   image,
   category,
-  delay = 0 
+  delay = 0,
+  link
 }) => {
   return (
     <Link 
-      to="/article" 
+      to={link} 
       className="group relative overflow-hidden rounded-md animate-fade-in"
       style={{ animationDelay: `${delay}s` }}
     >
