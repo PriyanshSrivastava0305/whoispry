@@ -11,12 +11,33 @@ import AlternateIndex from "./pages/AlternateIndex";
 
 const queryClient = new QueryClient();
 
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
+
+function ScrollToAnchor() {
+  const { hash } = useLocation();
+
+  useEffect(() => {
+    if (hash) {
+      const el = document.querySelector(hash);
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  }, [hash]);
+
+  return null;
+}
+
+
+
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
       <Toaster />
       <Sonner />
       <BrowserRouter>
+          <ScrollToAnchor />
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/article" element={<Article />} />

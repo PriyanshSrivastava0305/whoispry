@@ -40,12 +40,12 @@ const Hero: React.FC = () => {
             </button>
           </div>
           
-          <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-fade-in" style={{ animationDelay: '1.8s' }}>
+          {/* <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-fade-in" style={{ animationDelay: '1.8s' }}>
             <div className="w-6 h-10 border-2 border-white/30 rounded-full flex justify-center">
               <div className="w-1 h-2 bg-white/50 rounded-full mt-2 animate-bounce"></div>
             </div>
             <p className="text-white/50 text-xs mt-2 uppercase tracking-widest">Scroll</p>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

@@ -25,7 +25,9 @@ const Header: React.FC = () => {
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <Link to="/" className="flex items-center">
           <span className="text-2xl font-playfair font-bold tracking-wider text-glow">
-            NEØN<span className="text-neon-purple">.</span>ÆURA
+            {/* WHØ<span className="text-neon-purple">.</span>ÆURA */}
+            WHØ<span className="text-neon-purple">.</span>IS<span className="text-neon-purple">.</span>PЯY
+
           </span>
         </Link>
         
@@ -33,9 +35,9 @@ const Header: React.FC = () => {
           {[
             { name: 'Home', path: '/' },
             { name: 'Articles', path: '/articles' },
-            { name: 'Featured', path: '/featured' },
-            { name: 'About', path: '/about' },
-            { name: 'Alt Design', path: '/alt' }
+            { name: 'Featured', path: '/#latest' },
+            { name: 'Whoami', path: '/about' },
+            { name: 'cerebrum.sys', path: '/alt' }
           ].map((item, index) => (
             <Link 
               key={item.name}

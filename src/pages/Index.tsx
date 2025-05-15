@@ -84,11 +84,11 @@ const Index: React.FC = () => {
       <Hero />
       
       {/* Featured Posts Section */}
-      <section className="py-20 relative">
+      <section id="latest" className="py-20 relative">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between mb-12">
             <h2 className="font-playfair text-3xl md:text-4xl font-semibold">
-              Featured Articles
+             Latest Articles 
             </h2>
             
             <div className="hidden md:flex items-center space-x-2">
@@ -139,7 +139,7 @@ const Index: React.FC = () => {
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between mb-12">
             <h2 className="font-playfair text-3xl md:text-4xl font-semibold">
-              Latest Articles
+              More Articles
             </h2>
             
             <a href="#" className="hidden md:flex items-center group">
