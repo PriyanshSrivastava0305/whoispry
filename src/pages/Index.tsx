@@ -11,7 +11,7 @@ const FEATURED_POSTS = [
     id: 1,
     title: "THE FALL OF ICARUS",
     excerpt: "Don't fly too close to the sun. It will destroy you.",
-    image: "lovable-uploads/967e4a2c-75ab-4dc5-8f39-8900fd5f96b0.png",
+    image: "images/967e4a2c-75ab-4dc5-8f39-8900fd5f96b0.png",
     category: "MYTHOLOGY",
     link: "/articles/fall_of_icarus"
   },
