@@ -34,8 +34,8 @@ const Header: React.FC = () => {
         <nav className="hidden md:flex space-x-8">
           {[
             { name: 'Home', path: '/' },
-            { name: 'Articles', path: '/articles' },
-            { name: 'Featured', path: '/#latest' },
+            { name: 'Articles', path: '/#articles' },
+            { name: 'Highlights', path: '/#latest' },
             { name: 'Whoami', path: '/about' },
             { name: 'cerebrum.sys', path: '/alt' }
           ].map((item, index) => (

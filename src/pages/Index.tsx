@@ -145,7 +145,7 @@ const Index: React.FC = () => {
       </section>
       
       {/* Latest Articles Grid */}
-      <section className="py-20">
+      <section id="articles" className="py-20">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between mb-12">
             <h2 className="font-playfair text-3xl md:text-4xl font-semibold">
