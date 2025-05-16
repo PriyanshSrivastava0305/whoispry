@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
             <p className="text-white/70 text-sm mb-6">
               Exploring the borders between humanity and technology through thought-provoking articles and visual experiences.
             </p>
-            <div className="flex space-x-4">
+            {/* <div className="flex space-x-4">
               {['Twitter', 'Instagram', 'LinkedIn'].map(social => (
                 <Link 
                   key={social} 
@@ -24,7 +24,7 @@ const Footer: React.FC = () => {
                   <span className="text-white/70 text-xs hover:text-neon-purple">{social[0]}</span>
                 </Link>
               ))}
-            </div>
+            </div> */}
           </div>
           
           {/* <div>

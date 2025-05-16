@@ -10,6 +10,8 @@ import NotFound from "./pages/NotFound";
 import AlternateIndex from "./pages/AlternateIndex";
 // import AppRoutes from './AppRoutes';
 import AppRoutesWrapper from "./AppRoutes";
+import About from "./pages/about";
+
 
 
 const queryClient = new QueryClient();
