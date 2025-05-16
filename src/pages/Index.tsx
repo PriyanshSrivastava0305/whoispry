@@ -21,16 +21,16 @@ const FEATURED_POSTS = [
     excerpt: "Exploring the thin line between artificial intelligence and human awareness.",
     image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5",
     category: "TECH",
-    link: "/articles/fall-of-icarus"
+    link: "/articles/nn_hc"
   },
-  {
-    id: 3,
-    title: "Digital Architecture Revolution",
-    excerpt: "How virtual spaces are redefining our perception of structure and form.",
-    image: "https://images.unsplash.com/photo-1527576539890-dfa815648363",
-    category: "DESIGN",
-    link: "/articles/fall-of-icarus"
-  }
+  // {
+  //   id: 3,
+  //   title: "Digital Architecture Revolution",
+  //   excerpt: "How virtual spaces are redefining our perception of structure and form.",
+  //   image: "https://images.unsplash.com/photo-1527576539890-dfa815648363",
+  //   category: "DESIGN",
+  //   link: "/articles/fall-of-icarus"
+  // }
 ];
 
 const GRID_POSTS = [
@@ -42,14 +42,14 @@ const GRID_POSTS = [
     image: "https://images.unsplash.com/photo-1470813740244-df37b8c1edcb",
     link: "/articles/fall-of-icarus"
   },
-  {
-    id: 2,
-    title: "Biomechanical Art Movement",
-    excerpt: "Artists explore the fusion of organic forms and mechanical elements in a growing creative trend.",
-    category: "ART",
-    image: "https://images.unsplash.com/photo-1487958449943-2429e8be8625",
-    link: "/articles/fall-of-icarus"
-  },
+  // {
+  //   id: 2,
+  //   title: "Biomechanical Art Movement",
+  //   excerpt: "Artists explore the fusion of organic forms and mechanical elements in a growing creative trend.",
+  //   category: "ART",
+  //   image: "https://images.unsplash.com/photo-1487958449943-2429e8be8625",
+  //   link: "/articles/fall-of-icarus"
+  // },
   {
     id: 3,
     title: "The Ethics of Brain Interfaces",
@@ -58,22 +58,22 @@ const GRID_POSTS = [
     image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5",
     link: "/articles/fall-of-icarus"
   },
-  {
-    id: 4,
-    title: "Virtual Reality Therapy",
-    excerpt: "How immersive worlds are helping treat PTSD, phobias and other psychological conditions.",
-    category: "HEALTH",
-    image: "https://images.unsplash.com/photo-1527576539890-dfa815648363",
-    link: "/articles/fall-of-icarus"
-  },
-  {
-    id: 5,
-    title: "Digital Minimalism",
-    excerpt: "The counterculture movement against information overload in the connected age.",
-    category: "LIFESTYLE",
-    image: "https://images.unsplash.com/photo-1470813740244-df37b8c1edcb",
-    link: "/articles/fall-of-icarus"
-  },
+  // {
+  //   id: 4,
+  //   title: "Virtual Reality Therapy",
+  //   excerpt: "How immersive worlds are helping treat PTSD, phobias and other psychological conditions.",
+  //   category: "HEALTH",
+  //   image: "https://images.unsplash.com/photo-1527576539890-dfa815648363",
+  //   link: "/articles/fall-of-icarus"
+  // },
+  // {
+  //   id: 5,
+  //   title: "Digital Minimalism",
+  //   excerpt: "The counterculture movement against information overload in the connected age.",
+  //   category: "LIFESTYLE",
+  //   image: "https://images.unsplash.com/photo-1470813740244-df37b8c1edcb",
+  //   link: "/articles/fall-of-icarus"
+  // },
   {
     id: 6,
     title: "Cyberpunk 2025: Predictions vs Reality",
@@ -152,12 +152,12 @@ const Index: React.FC = () => {
               More Articles
             </h2>
             
-            <a href="#" className="hidden md:flex items-center group">
+            {/* <a href="#" className="hidden md:flex items-center group">
               <span className="text-white/70 text-sm group-hover:text-neon-purple transition-colors">View all</span>
               <svg className="w-4 h-4 ml-2 text-white/70 group-hover:text-neon-purple transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
               </svg>
-            </a>
+            </a> */}
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-12">
